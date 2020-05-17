@@ -1,6 +1,6 @@
 Coursera Data Science Specialization Course
-Getting and Cleanng Data
-Course Projec
+(Getting and Cleanng Data)
+Course Project
 
 Data:
     The goal of the project was to collect, work with and clean the data set. The data was obtained from the UCI Machine Learning website.

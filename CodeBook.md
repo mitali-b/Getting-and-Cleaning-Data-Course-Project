@@ -10,12 +10,12 @@ Data:
 Processing:
 The run_analysis.R script performs the following 5 steps to obtain the desired clean dataset.
 
-    Step 1 : Obtaining the dataset
+   Step 1 : Obtaining the dataset
     
         The dataset was downloaded and extracted in a folder named UCI HAR Dataset
 
 
-    Step 2: Read Each data file and assign a name to each
+   Step 2: Read Each data file and assign a name to each
         
         activity_labels : Read activity_labels.txt file (6 rows, 2 columns). It contained the list of activities performed when measurements were taken.
         

@@ -1,12 +1,11 @@
-Coursera Data Science Specialization Course
-(Getting and Cleanng Data)
-Course Project
+# Coursera Data Science Specialization Course
+# Getting and Cleanng Data - Course Project
 
-Data:
+## Data:
     The goal of the project was to collect, work with and clean the data set. The data was obtained from the UCI Machine Learning website.
     The archived data set can be obtained using the link here : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Processing:
+## Processing:
 The run_analysis.R script performs the following 5 steps to obtain the desired clean dataset.
 
    Step 1 : Obtaining the dataset
@@ -67,3 +66,31 @@ The run_analysis.R script performs the following 5 steps to obtain the desired c
 
   Step 7: Export FinalData into FinalData.txt file.
 
+
+## Variables
+
+    filename = To name the file where the data from the source can be downloaded to
+    
+    activity_labels = stores data from activity_labels.txt file
+    features = stores data from features.txt file
+    
+    subject_test = test set for subject
+    x_test = test set for recorded features
+    y_test = test set for recorded activity
+    
+    subject_train = training set for subject
+    x_train = training set for recorded features
+    y_train = training set for recorded activity
+    
+    x = x_test and x_train combined by rows
+    y = y_test and y_train combined by rows
+    sub = subject_test and subject_train combined by rows
+    
+    SelectedCols = stores columns that matches 'mean' and 'std' in their name
+    SelectColNames = replaces column names that have mean() and std() in their names with Mean and STD
+    
+    x = stores only the mean and std columns
+    allData = sub, x and y combined by columns
+    
+    tidyData = dataset with only the required columns
+    FinalData = Final dataset with renamed columns and grouped by 'Subject' and 'Activity'

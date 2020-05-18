@@ -5,8 +5,10 @@
   
 ## Project Files
 
-  run_analysis.R : The R script in run_analysis.R file is where the data is obtained from the website, the various data file are combined into one data set. The data set is then reduced to a subset that only involves the mean and deviation deviation. The columns are renamed to reflect meaningful names.
+  run_analysis.R : The R script in run_analysis.R file is where the data is obtained from the website, the various data file are combined into one data set. The data set is then reduced to a subset that only involves the mean and deviation deviation. The columns are renamed to reflect meaningful names. This data is then grouped by subject and activity and summarized by each variable's mean. 
   
+  FinalData.txt : The end tidy data set obtained from the above step is written to a FinalData.txt file
   
+  CodeBook.md : In detail data processing steps and their descriptions is included in the CodeBook.md file. 
   
 
